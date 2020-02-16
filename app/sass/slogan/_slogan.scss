@@ -1,0 +1,15 @@
+.slogan {
+    font-family: Storytella;
+    
+    &_header {
+        font-size: 200px;
+        color: map-get($header, slogan-col);
+        font-weight: 400;
+        margin-top: 193px;
+        line-height: 1em;
+        padding: 0;
+    }
+    
+}
+
+@import "./_slogan-media.scss";

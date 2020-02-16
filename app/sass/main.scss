@@ -23,12 +23,17 @@
     src: url("./../fonts/Raleway/Raleway-Bold.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: "Storytella";
+    src: url("./../fonts/Storytella/Storytella.ttf") format("truetype");
+}
+
 //add fontawesome
 
 @import "./../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss", "../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
 
 //add project modules
 
-@import "./_mixins.scss", "./_my-variables.scss", "./body/_body.scss", "./header/header.scss", "./navbar/_navbar.scss", "./button/_btn.scss";
+@import "./_mixins.scss", "./_my-variables.scss", "./body/_body.scss", "./header/header.scss", "./navbar/_navbar.scss", "./button/_btn.scss", "./slogan/_slogan.scss";
 
 
