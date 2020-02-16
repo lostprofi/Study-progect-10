@@ -1,0 +1,92 @@
+@include adaptive(xxl){
+    .navbar {
+        &__collapse {
+            display: block !important;
+        }
+    }
+}
+
+@include adaptive(xl){
+    .navbar {
+        &__collapse {
+            display: block !important;
+        }
+    }
+}
+
+@include adaptive(lg){
+    .navbar {
+        &__collapse {
+            display: block !important;
+        }
+    }
+}
+
+@include adaptive(md){
+    
+    .navbar{
+        &__collapse {
+            display: none;
+            padding: 0;
+        }
+        
+        &__toggler {
+            display: inline-block;
+        }
+    }
+}
+
+@include adaptive(sm){
+    
+    .navbar{
+        &__collapse {
+            display: none;
+            padding: 0;
+        }
+        
+        &__btn {
+            padding: 13px 20px 11px 18px;
+        }
+        
+        &__toggler {
+            display: inline-block;
+        }
+    }
+}
+
+@include adaptive(xs){
+    
+    .navbar{
+        &__collapse {
+            display: none;
+            padding: 0;
+        }
+        
+        &__nav-wrapper {
+            display: block;
+        }
+        
+        &__nav {
+            display: inherit;
+        }
+        
+        &__item {
+            display: inherit;
+        }
+        
+        &__link {
+            padding: 0;
+            margin-bottom: 15px;
+        }
+        
+        &__btn {
+            margin-bottom: 15px;
+        }
+        
+        &__toggler {
+            display: inline-block;
+            margin-right: 25px;
+        }
+    }
+    
+}

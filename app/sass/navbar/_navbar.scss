@@ -1,0 +1,70 @@
+.navbar {
+    border-bottom: 1px solid rgba(255,255,255,0.12);
+    
+    &__container {
+        position: relative;
+        padding: 0;
+        text-align: right;
+    }
+    
+    &__logo {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+    &__collapse {
+        display: block;
+        padding-left: 167px;
+    }
+    
+    &__nav-wrapper{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+
+    &__item{
+        display: inline-block;
+        margin-right: 25px;
+    }
+    
+    &__link {
+        color: map-get($header, nav-link-color);
+        padding: 49px 0 37px 0;
+        position: relative;
+        border-bottom: 2px solid transparent;
+        
+        &:hover {
+            border-bottom: 2px solid map-get($header, nav-link-border-hov);
+        }  
+    }
+    
+    &__btn{
+        padding: 13px 36px 11px 34px;
+        width: auto;
+        border-radius: 22px;
+        background-color: rgb(255,255,255);
+        line-height: 20px;
+        
+        &:hover {
+
+            background-color:  map-get($header, nav-btn-col-hov);
+        }
+    }
+    
+    &__toggler {
+        display: inline-block;
+        color: aliceblue;
+        font-size: 35px;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        margin: 32px 0;
+        display: none;
+    }
+}
+
+@import "./_navbar-media.scss";

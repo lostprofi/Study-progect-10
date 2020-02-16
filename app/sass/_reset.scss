@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: Open_Sans_Regular;
+    font-size: 14px;
+    
+}
+
+a {
+    font-family: Open_Sans_Regular;
+    font-size: 14px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: Raleway_Bold;
+}
+
+
+///grid///
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1600px    
+);
+
+$container-max-widths: (
+  
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1120px,
+  xxl: 1170px
+);
+

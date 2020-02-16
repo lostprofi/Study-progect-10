@@ -1,0 +1,34 @@
+@import "./_reset.scss";
+
+//required bootstrap modules
+
+@import "../../node_modules/bootstrap/scss/_functions.scss",
+        "../../node_modules/bootstrap/scss/_mixins.scss",
+        "../../node_modules/bootstrap/scss/_variables.scss",
+        "../../node_modules/bootstrap/scss/_utilities.scss";
+
+//optional bootstrap modules
+
+@import "../../node_modules/bootstrap/scss/_grid.scss";
+
+//add fonts
+
+@font-face{
+    font-family: "Open_Sans_Regular";
+    src: url("./../fonts/Open_Sans/OpenSans-Regular.ttf") format("truetype"); 
+}
+
+@font-face{
+    font-family: "Raleway_Bold";
+    src: url("./../fonts/Raleway/Raleway-Bold.ttf") format("truetype");
+}
+
+//add fontawesome
+
+@import "./../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss", "../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
+
+//add project modules
+
+@import "./_mixins.scss", "./_my-variables.scss", "./body/_body.scss", "./header/header.scss", "./navbar/_navbar.scss", "./button/_btn.scss";
+
+
